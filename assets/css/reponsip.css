@@ -1,0 +1,40 @@
+/* mobile */
+@media (max-width : 740px) {
+    #nav>li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    .search_btn {
+        display: none;
+    }
+    #nav {
+        display: block;
+    }
+    #header {
+    overflow: hidden;
+
+    }
+    .col-third {
+        width: 100%;
+        padding-top: 14px;
+    }
+    .member-item {
+        width: 100%;
+    }
+    .col-half {
+        width: 100%;
+    }
+    .form-send, 
+    .place-btn {
+        width: 100%;
+        margin-right: -5px;
+    }
+
+}
+@media (min-width:1024px ) {
+    #mobile_menu {
+        display: none;
+    }
+}
